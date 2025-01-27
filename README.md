@@ -34,15 +34,23 @@ This is a simple user management application where users can view, add, edit, an
 
 ### **1. `App` Component**
 The root component that wraps all other components. It manages global state and serves as the central point for passing props and state updates.
+![image](https://github.com/user-attachments/assets/e824121f-902a-4432-b70a-82d4992e3817)
 
-### **2. `UserManagement` Component**
+
+### **2. `Edit UserManagement` Component**
 The main component displaying the list of users and integrating other subcomponents like `AddUser`.
+![image](https://github.com/user-attachments/assets/c2c3934a-bcec-4a34-a879-be49e70aeaaf)
+
 
 ### **3. `AddUser` Component**
 A form to add new users or edit existing user details. It handles form state and makes POST/PUT requests to the backend.
+![image](https://github.com/user-attachments/assets/6fa29a52-a2f9-42eb-8b90-9589cc4890d8)
+
 
 ### **4. `UserList` Component**
 Displays the list of users in a clean, formatted list. Each user card includes options to edit or delete a user.
+![image](https://github.com/user-attachments/assets/efafa499-ee46-4a3a-bf21-c7ac59c2a3d5)
+
 
 ### **5. `ErrorBoundary` Component**
 (Optional) Wraps other components to catch and display errors without crashing the app.
